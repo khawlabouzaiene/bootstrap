@@ -1,0 +1,38 @@
+
+body{
+    font-family: 'Lucida Sans', 'Grande';
+    background-color: yellowgreen;
+
+}
+/* header*/
+header  {
+   height:auto;
+   padding:10px 0;
+   border-bottom: 1px solid rgb(0, 0, 0);
+}  
+header .logo h2{
+   font-size: 35px;
+   color: tomato;
+} 
+header nav .nav-list {
+  list-style: none;  
+display:flex ;
+justify-content: space-around;
+margin-bottom: 0;
+}
+header nav .nav-list .list a{
+      display:block;
+      padding:15px;
+      margin: 9px 0;
+      text-decoration:none;
+      transition:all 0.3s ease-in-out;
+      
+  }  
+header  nav .nav-list .list a:hover{
+      color:rgba(182, 90, 28, 0.993);
+  } 
+    
+    
+
+      
+
